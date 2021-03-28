@@ -1,24 +1,25 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static unsigned int borderpx    = 1;        /* border pixel of windows */
-static unsigned int snap        = 32;       /* snap pixel */
-static int showbar              = 1;        /* 0 means no bar */
-static int topbar               = 1;        /* 0 means bottom bar */
-static const char *fonts[]      = { "monospace:size=10" };
-static const char dmenufont[]   = "monospace:size=10";
-static char normbgcolor[]       = "#222222";
-static char normbordercolor[]   = "#444444";
-static char normfgcolor[]       = "#bbbbbb";
-static char selfgcolor[]        = "#eeeeee";
-static char selbordercolor[]    = "#005577";
-static char selbgcolor[]        = "#005577";
-static char col1[]              = "#ffffff";
-static char col2[]              = "#ffffff";
-static char col3[]              = "#ffffff";
-static char col4[]              = "#ffffff";
-static char col5[]              = "#ffffff";
-static char col6[]              = "#ffffff";
+static unsigned int borderpx        = 1;        /* border pixel of windows */
+static const unsigned int gappx     = 6;        /* gaps between windows */
+static unsigned int snap            = 32;       /* snap pixel */
+static int showbar                  = 1;        /* 0 means no bar */
+static int topbar                   = 1;        /* 0 means bottom bar */
+static const char *fonts[]          = { "monospace:size=10" };
+static const char dmenufont[]       = "monospace:size=10";
+static char normbgcolor[]           = "#222222";
+static char normbordercolor[]       = "#444444";
+static char normfgcolor[]           = "#bbbbbb";
+static char selfgcolor[]            = "#eeeeee";
+static char selbordercolor[]        = "#005577";
+static char selbgcolor[]            = "#005577";
+static char col1[]                  = "#ffffff";
+static char col2[]                  = "#ffffff";
+static char col3[]                  = "#ffffff";
+static char col4[]                  = "#ffffff";
+static char col5[]                  = "#ffffff";
+static char col6[]                  = "#ffffff";
 
 enum { SchemeNorm, SchemeCol1, SchemeCol2, SchemeCol3, SchemeCol4,
        SchemeCol5, SchemeCol6, SchemeSel }; /* color schemes */
